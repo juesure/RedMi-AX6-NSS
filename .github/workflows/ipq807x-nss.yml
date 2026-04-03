@@ -1,13 +1,8 @@
 #CI项目名
 name: ipq807x-nss
-
-on:
-  #自动编译：每天早上4点
-  schedule:
-    - cron: 0 20 * * *
-  #手动编译
+  push:
+    branches: [my_ax6_256m_v1.0]
   workflow_dispatch:
-
 #CI权限
 permissions: write-all
 
