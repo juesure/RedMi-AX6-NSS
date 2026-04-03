@@ -1,5 +1,6 @@
 #CI项目名
 name: ipq807x-nss
+on:
   push:
     branches: [my_ax6_256m_v1.0]
   workflow_dispatch:
